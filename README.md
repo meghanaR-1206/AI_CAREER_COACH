@@ -39,12 +39,56 @@
 
 ---
 
-## ⚙️ Tech Stack
+## 🛠️ Tech Stack
 
-| Technology | Usage |
-|------------|--------|
-| Next.js 14 | Frontend & Backend |
-| Prisma + PostgreSQL | Database ORM |
-| Clerk | Authentication |
-| Tailwind CSS | UI Styling |
-| Google Gemini 1.5 Flash | AI Content Generati
+| Tech            | Description                     |
+|-----------------|---------------------------------|
+| Next.js 14      | Fullstack React Framework       |
+| Prisma          | Database ORM (PostgreSQL)       |
+| Clerk           | Authentication & User Management |
+| Google Gemini 1.5 Flash | AI Content Generation       |
+| Tailwind CSS    | Utility-first CSS Framework     |
+| ShadCN UI       | Styled UI Components            |
+| PostgreSQL      | Relational Database             |
+
+
+
+## 📦 Folder Structure
+app/
+(main)/ # Main routes
+dashboard/ # Industry insights dashboard
+interview/ # Interview prep and quiz
+learn/ # Course generator
+resume_editter/ # Resume editor
+onboarding/ # Onboarding form
+components/ # Shared UI components
+lib/ # DB, auth, helper functions
+actions/ # Server actions
+prisma/ # Prisma schema
+public/ # Static assets
+
+
+
+---
+
+## 📥 Installation & Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/meghanaR-1206/AI_CAREER_COACH.git
+cd AI_CAREER_COACH
+```
+### 2.  Install Dependencies
+
+npm install
+
+### 3.   Setup Environment Variables
+
+DATABASE_URL=your_postgres_database_url
+CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+CLERK_SECRET_KEY=your_clerk_secret_key
+GEMINI_API_KEY=your_google_gemini_api_key
+
+
+

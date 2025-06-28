@@ -35,7 +35,7 @@ const Header = () => {
           </DropdownMenuTrigger>
           <DropdownMenuContent className="bg-[#FCECDD] text-[#00809D] border border-[#FF7601]">
             <DropdownMenuItem onClick={() => router.push("/")}>Home</DropdownMenuItem>
-            <DropdownMenuItem onClick={() => router.push("/dashboard")}>Industry Insights</DropdownMenuItem>
+            <DropdownMenuItem onClick={() => router.push("/onboarding")}>Industry Insights</DropdownMenuItem>
             <DropdownMenuItem onClick={() => router.push("/resume_editter")}>Resume Builder</DropdownMenuItem>
             <DropdownMenuItem onClick={() => router.push("/interview")}>Interview Prep</DropdownMenuItem>
             <DropdownMenuItem onClick={() => router.push("/learn")}>Start Learning</DropdownMenuItem>

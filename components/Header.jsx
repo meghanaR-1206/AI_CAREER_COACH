@@ -37,7 +37,7 @@ const Header = () => {
             <DropdownMenuItem onClick={() => router.push("/")}>Home</DropdownMenuItem>
             <DropdownMenuItem onClick={() => router.push("/dashboard")}>Industry Insights</DropdownMenuItem>
             <DropdownMenuItem onClick={() => router.push("/resume_editter")}>Resume Builder</DropdownMenuItem>
-            <DropdownMenuItem onClick={() => router.push("/interview")}>Interview Preperation</DropdownMenuItem>
+            <DropdownMenuItem onClick={() => router.push("/interview")}>Interview Prep</DropdownMenuItem>
             <DropdownMenuItem onClick={() => router.push("/learn")}>Start Learning</DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
@@ -47,7 +47,7 @@ const Header = () => {
           CareerCoach AI
         </h1>
 
-        {/* Right: Auth */}
+        {/* Right: Authentication */}
         <div className="flex items-center space-x-3">
           <SignedIn>
             <UserButton afterSignOutUrl="/" />
@@ -59,8 +59,12 @@ const Header = () => {
                 Sign In
               </Button>
             </SignInButton>
+
             <SignUpButton mode="modal">
-              <Button variant="outline" className="border-[#FCECDD] text-[#FCECDD] hover:bg-[#F3A26D]/20">
+              <Button
+                variant="outline"
+                className="border-white text-white hover:bg-[#F3A26D]/20"
+              >
                 Sign Up
               </Button>
             </SignUpButton>

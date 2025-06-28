@@ -50,7 +50,7 @@ const Hero = () => {
           Get personalized career guidance powered by artificial intelligence — resume reviews, interview prep, and more.
         </p>
 
-        <Link href="/onboading" passHref>
+        <Link href="/onboarding" passHref>
           <Button
             size="lg"
             className="bg-[#FCECDD] text-[#FF7601] hover:bg-white font-semibold shadow-md animate-bounce transition"

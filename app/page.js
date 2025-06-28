@@ -163,7 +163,7 @@ export default function LandingPage() {
           <p className="text-md max-w-xl mx-auto opacity-90 mb-6">
             Join thousands of professionals who are advancing their careers with AI-powered guidance.
           </p>
-          <Link href="/dashboard">
+          <Link href="/onboarding">
             <Button
               size="lg"
               className="bg-[#FF7601] hover:bg-[#F3A26D] text-white font-semibold"
